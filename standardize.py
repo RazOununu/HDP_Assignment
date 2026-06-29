@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-INPUT_FILE = "heart.csv"
+INPUT_FILE = "heart_clean.csv"
 OUTPUT_FILE = "heart_standardized.csv"
 
 CONTINUOUS_COLUMNS = ["age", "trestbps", "chol", "thalach", "oldpeak"]
