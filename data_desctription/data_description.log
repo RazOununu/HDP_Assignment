@@ -1,79 +1,77 @@
-Dataset shape: 303 samples, 14 columns
+Dataset shape: 296 samples, 14 columns
   Continuous columns (5): ['age', 'trestbps', 'chol', 'thalach', 'oldpeak']
   Categorical/binary columns (8): ['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal']
   Label column: target
 
 Target distribution:
 target
-disease (1)    165
-healthy (0)    138
+disease (1)    160
+healthy (0)    136
 Name: count, dtype: int64
 
 Continuous columns - mean/std BEFORE standardization:
                 mean        std
-age        54.366337   9.082101
-trestbps  131.623762  17.538143
-chol      246.264026  51.830751
-thalach   149.646865  22.905161
-oldpeak     1.039604   1.161075
+age        54.523649   9.059471
+trestbps  131.604730  17.726620
+chol      247.155405  51.977011
+thalach   149.560811  22.970792
+oldpeak     1.059122   1.166474
 
 Continuous columns - mean/std AFTER standardization:
                   mean       std
-age       4.690051e-17  1.001654
-trestbps -7.035077e-16  1.001654
-chol     -1.069918e-16  1.001654
-thalach  -6.566071e-16  1.001654
-oldpeak   2.345026e-17  1.001654
+age       3.840772e-16  1.001693
+trestbps -6.001206e-16  1.001693
+chol     -2.340470e-16  1.001693
+thalach   1.680338e-16  1.001693
+oldpeak  -9.601929e-17  1.001693
 
 Categorical/binary columns - value distribution:
   sex:
 sex
-0     96
-1    207
+0     95
+1    201
 
   cp:
 cp
-0    143
-1     50
-2     87
+0    141
+1     49
+2     83
 3     23
 
   fbs:
 fbs
-0    258
-1     45
+0    253
+1     43
 
   restecg:
 restecg
-0    147
-1    152
+0    145
+1    147
 2      4
 
   exang:
 exang
-0    204
-1     99
+0    199
+1     97
 
   slope:
 slope
 0     21
-1    140
-2    142
+1    137
+2    138
 
   ca:
 ca
-0    175
+0    173
 1     65
 2     38
 3     20
-4      5
 
   thal:
 thal
-0      2
 1     18
-2    166
-3    117
+2    163
+3    115
 
 
 Saved plots: continuous_before.png, categorical_distribution.png, target_distribution.png
